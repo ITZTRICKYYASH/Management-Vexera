@@ -65,7 +65,7 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/AaruRobot
-RUN git clone -b shiken https://github.com/BANNA-XD143/AaruRobot /root/AaruRobot
+RUN git clone -b shiken https://github.com/DOMINATOR-XD/AaruRobot /root/AaruRobot
 WORKDIR /root/AaruRobot
 
 #Copy config file to /root/AaruRobot/AaruRobot
